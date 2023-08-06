@@ -573,7 +573,7 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: #ad0f0f;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {    
@@ -880,7 +880,7 @@ section.simple-cta .buttons {
 }
 
 section.simple-cta .buttons .orange-button {
-  margin-left: 20px;
+  margin-left: 20px;  
 }
 
 section.simple-cta .buttons .orange-button,
