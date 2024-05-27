@@ -204,7 +204,7 @@ section {
   font-weight: 700;
 }
 
-.section-heading h4 {
+.section-heading h2, h4 {
   margin-top: 10px;
   line-height: 40px;
   font-size: 36px;
@@ -707,7 +707,7 @@ banner
   background-position: center;
 }
 
-.swiper-slide-active h2 {
+.swiper-slide-active h1, h2 {
   animation: fadeInLeft .8s;
   -webkit-animation-delay: 1s;
   animation-delay: .3s;
@@ -743,7 +743,7 @@ banner
   transform: translateY(-50%);
 }
 
-.slide-inner .header-text h2 {
+.slide-inner .header-text h1 {
   position: relative;
   z-index: 2;
   font-size: 56px;
@@ -773,7 +773,7 @@ banner
   visibility: visible;
 }
 
-.slide-inner .header-text h2 em {
+.slide-inner .header-text h1 em, h2 em {
   font-style: normal;
   color: #3EBDAB;
 }
@@ -815,10 +815,11 @@ section.services {
   margin-top: 15px;
 }
 
-.services .service-item h4 {
+.services .service-item h2, h4 {
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  color: black;
 }
 
 .services .service-item i {
@@ -830,6 +831,9 @@ section.services {
   margin-right: 30px;
 }
 
+section.services p {
+  text-align: justify;
+}
 
 
 /*
@@ -858,12 +862,12 @@ section.simple-cta h4 {
   line-height: 50px;
 }
 
-section.simple-cta h4 em {
+section.simple-cta h2, h4 em {
   font-style: normal;
   color: #3EBDAB;
 }
 
-section.simple-cta h4 strong {
+section.simple-cta h2,  h4 strong {
   color: #3EBDAB;
   font-weight: 700;
 }
@@ -991,7 +995,7 @@ section.about-us .right-content {
   margin-left: 60px;
 }
 
-section.about-us .right-content h4 {
+section.about-us .right-content h2, h4 {
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
@@ -1002,6 +1006,9 @@ section.about-us .right-content p {
   margin-bottom: 50px;
 }
 
+section.about-us p {
+  text-align: justify;
+}
 
 /*
 ---------------------------------------------
@@ -1027,7 +1034,7 @@ section.calculator .section-heading {
   text-align: left;
 }
 
-section.calculator .section-heading h4 {
+section.calculator .section-heading h2, h4 {
   color: #fff;
 }
 
@@ -1117,7 +1124,7 @@ section.testimonials .section-heading {
   font-style: italic;
 }
 
-.testimonials .item h4 {
+.testimonials .item h2, h4 {
   margin-top: 30px;
   font-size: 22px;
   font-weight: 600;
@@ -1221,7 +1228,7 @@ page heading
   text-align: center;
 }
 
-.page-heading h2 {
+.page-heading h1, h2 {
   font-size: 56px;
   color: #fff;
   font-weight: 700;
@@ -1306,7 +1313,7 @@ section.what-we-do {
   margin-right: 60px;
 }
 
-.what-we-do .left-content h4 {
+.what-we-do .left-content h2, h4 {
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
@@ -1336,7 +1343,7 @@ section.what-we-do {
   transition: all .3s;
 }
 
-.what-we-do .right-items .item h4 {
+.what-we-do .right-items .item h2, h4 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 22px;
@@ -1403,8 +1410,8 @@ services page
   border-radius: 5px;
 }
 
-.main-services .right-text-content h4,
-.main-services .left-text-content h4 {
+.main-services .right-text-content h2, h4,
+.main-services .left-text-content h2, h4 {
   font-size: 36px;
   font-weight: 700;
   color: #212741;
@@ -1478,7 +1485,7 @@ section.service-details ul.nacc li .right-content {
   margin-left: 470px;
 }
 
-section.service-details ul.nacc li .right-content h4 {
+section.service-details ul.nacc li .right-content h2, h4 {
   font-size: 24px;
   color: #212741;
   margin-bottom: 25px;
@@ -1549,7 +1556,7 @@ section.map .info-item i {
   margin-bottom: 25px;
 }
 
-section.map .info-item h4 {
+section.map .info-item h2, h4 {
   font-size: 18px;
   color: #212741;
   font-weight: 600;
@@ -1699,7 +1706,7 @@ body {
     padding: 50px;
     margin-left: 0px;
   }
-  section.service-details ul.nacc li .right-content h4 {
+  section.service-details ul.nacc li .right-content h2, h4 {
     margin-right: 0px;
   }
   section.service-details ul.nacc li.active {
